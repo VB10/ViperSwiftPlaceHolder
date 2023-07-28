@@ -15,7 +15,8 @@ final class HomeViewController: UIViewController {
 
     private var itemCats: [CatEntity] = []
 
-    lazy var presenter: HomePresenter = .init(interactor: HomeInteractor(), view: self)
+    lazy var presenter: HomePresenter = .init(interactor: HomeInteractor(
+        networkManager: AlamofireNetworkManager.shared), view: self, networkInput: self)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,5 +99,14 @@ extension HomeViewController {
 
         homeTableViewController.dataSource = self
         homeTableViewController.delegate = self
+    }
+}
+
+extension HomeViewController: UINetworkInput {
+    func presentAlert(controller: UIAlertController) {
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            self.present(controller, animated: true)
+        }
     }
 }

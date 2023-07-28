@@ -7,7 +7,7 @@
 
 import Foundation
 
-class HomeRouter {
+final class HomeRouter {
 //    weak var viewController: UIViewController?
 //
 //    func navigateToNewsDetail(with news: News) {

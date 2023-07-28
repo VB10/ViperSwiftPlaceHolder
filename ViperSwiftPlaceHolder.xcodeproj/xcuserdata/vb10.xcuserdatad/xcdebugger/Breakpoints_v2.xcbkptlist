@@ -14,42 +14,137 @@
             filePath = "ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "onTapCell(model:)"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D41F8229-62D3-44C3-BFDA-97D8C6AB02BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperSwiftPlaceHolder/Module/Home/Intrector/HomeInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "HomeInteractor"
+            landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "FEF4E792-5F53-4C18-937D-B29226BF802E - b25d79be65803de0"
+                  uuid = "D41F8229-62D3-44C3-BFDA-97D8C6AB02BD - 8d89be5167fb73a2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ViperSwiftPlaceHolder.HomePresenter.viewDidLoad() -&gt; ()"
+                  symbolName = "ViperSwiftPlaceHolder.ServicePath.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;ViperSwiftPlaceHolder.ServicePath&gt;"
                   moduleName = "ViperSwiftPlaceHolder"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Intrector/HomeInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "D41F8229-62D3-44C3-BFDA-97D8C6AB02BD - 633b256f2dbab876"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViperSwiftPlaceHolder.ServicePath.rawValue.getter : Swift.String"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Intrector/HomeInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C7F0E48-88C4-4301-8E85-C98308975BDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperSwiftPlaceHolder/Module/Home/Intrector/HomeInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchCatsAsync()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C7F0E48-88C4-4301-8E85-C98308975BDD - dd45da75217278b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ViperSwiftPlaceHolder.HomeInteractor.fetchCatsAsync() async -&gt; Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;ViperSwiftPlaceHolder.CatEntity&gt;&gt;, Swift.Error&gt;"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Intrector/HomeInteractor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "34"
                   endingLineNumber = "34"
-                  offsetFromSymbolStart = "224">
+                  offsetFromSymbolStart = "60">
                </Location>
                <Location
-                  uuid = "FEF4E792-5F53-4C18-937D-B29226BF802E - b775ce5a6dedfccc"
+                  uuid = "0C7F0E48-88C4-4301-8E85-C98308975BDD - 5a784abf13d6cde"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ViperSwiftPlaceHolder.HomePresenter.onTapCell(model: ViperSwiftPlaceHolder.CatEntity) -&gt; ()"
+                  symbolName = "(2) await resume partial function for ViperSwiftPlaceHolder.HomeInteractor.fetchCatsAsync() async -&gt; Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;ViperSwiftPlaceHolder.CatEntity&gt;&gt;, Swift.Error&gt;"
                   moduleName = "ViperSwiftPlaceHolder"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Intrector/HomeInteractor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "56">
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "0C7F0E48-88C4-4301-8E85-C98308975BDD - dc160128cc95bcb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ViperSwiftPlaceHolder.HomeInteractor.fetchCatsAsync() async -&gt; Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;ViperSwiftPlaceHolder.CatEntity&gt;&gt;, Swift.Error&gt;"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Intrector/HomeInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "36">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C1267E6-48DC-4F14-A56F-2345A18C7F5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperSwiftPlaceHolder/Module/Home/Intrector/HomeInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchCatsAsync()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -7,13 +7,18 @@
 
 import Foundation
 
+
+
 final class HomePresenter: HomeViewPresenterInput {
     let interactor: HomeInteractor
     let view: HomeViewInputs
 
-    init(interactor: HomeInteractor, view: HomeViewInputs) {
+    let networkErrorHandler: NetworkErrorHandler
+
+    init(interactor: HomeInteractor, view: HomeViewInputs, networkInput: UINetworkInput) {
         self.interactor = interactor
         self.view = view
+        self.networkErrorHandler = NetworkErrorHandler(viewInput: networkInput)
     }
 
     private func fetchCats() {
@@ -24,7 +29,19 @@ final class HomePresenter: HomeViewPresenterInput {
             case .failure:
                 print("")
             }
+
             self.view.indicatorView(animate: false)
+        }
+    }
+
+    private func fetchCatsAsync() async {
+        let response = await interactor.fetchCatsAsync()
+
+        switch response {
+        case .success(let items):
+            view.reloadTableView(cats: items ?? [])
+        case .failure(let error):
+            networkErrorHandler.handleError(error: error)
         }
     }
 
@@ -34,9 +51,9 @@ final class HomePresenter: HomeViewPresenterInput {
 
     func viewDidLoad() {
         view.indicatorView(animate: true)
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            self.fetchCats()
+        Task {
+            @MainActor in
+            await fetchCatsAsync()
         }
     }
 }

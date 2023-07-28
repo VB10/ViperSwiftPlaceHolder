@@ -17,6 +17,10 @@
 		5445119D2A62028400C8D93A /* ViperSwiftPlaceHolderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5445119C2A62028400C8D93A /* ViperSwiftPlaceHolderUITests.swift */; };
 		5445119F2A62028400C8D93A /* ViperSwiftPlaceHolderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5445119E2A62028400C8D93A /* ViperSwiftPlaceHolderUITestsLaunchTests.swift */; };
 		544511B52A62062100C8D93A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544511B42A62062100C8D93A /* HomeViewController.swift */; };
+		549023662A7331520085FD63 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549023652A7331520085FD63 /* NetworkManager.swift */; };
+		549023692A73327E0085FD63 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549023682A73327E0085FD63 /* NetworkConfig.swift */; };
+		5490236B2A7333C00085FD63 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490236A2A7333C00085FD63 /* NetworkUtils.swift */; };
+		5490236E2A733BAC0085FD63 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490236D2A733BAC0085FD63 /* ErrorHandler.swift */; };
 		54FC895B2A620A58002B52DD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54FC895A2A620A58002B52DD /* SnapKit */; };
 		54FC895D2A620F2D002B52DD /* HomeControctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC895C2A620F2D002B52DD /* HomeControctor.swift */; };
 		54FC895F2A6210EB002B52DD /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC895E2A6210EB002B52DD /* HomeInteractor.swift */; };
@@ -59,6 +63,10 @@
 		5445119C2A62028400C8D93A /* ViperSwiftPlaceHolderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperSwiftPlaceHolderUITests.swift; sourceTree = "<group>"; };
 		5445119E2A62028400C8D93A /* ViperSwiftPlaceHolderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperSwiftPlaceHolderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		544511B42A62062100C8D93A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		549023652A7331520085FD63 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		549023682A73327E0085FD63 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		5490236A2A7333C00085FD63 /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		5490236D2A733BAC0085FD63 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		54FC895C2A620F2D002B52DD /* HomeControctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControctor.swift; sourceTree = "<group>"; };
 		54FC895E2A6210EB002B52DD /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		54FC89602A6211B3002B52DD /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -216,10 +224,22 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		549023672A73326C0085FD63 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				549023682A73327E0085FD63 /* NetworkConfig.swift */,
+				5490236A2A7333C00085FD63 /* NetworkUtils.swift */,
+				5490236D2A733BAC0085FD63 /* ErrorHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		54FC89672A6218DF002B52DD /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				549023672A73326C0085FD63 /* Network */,
 				54FC89682A6218E9002B52DD /* ProductConstants.swift */,
+				549023652A7331520085FD63 /* NetworkManager.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -364,12 +384,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FC89632A621470002B52DD /* CatEntity.swift in Sources */,
+				5490236E2A733BAC0085FD63 /* ErrorHandler.swift in Sources */,
 				54FC89692A6218E9002B52DD /* ProductConstants.swift in Sources */,
+				549023692A73327E0085FD63 /* NetworkConfig.swift in Sources */,
 				54FC89612A6211B3002B52DD /* HomePresenter.swift in Sources */,
 				544511802A62028300C8D93A /* ViewController.swift in Sources */,
+				549023662A7331520085FD63 /* NetworkManager.swift in Sources */,
 				5445117C2A62028300C8D93A /* AppDelegate.swift in Sources */,
 				54FC895D2A620F2D002B52DD /* HomeControctor.swift in Sources */,
 				54FC895F2A6210EB002B52DD /* HomeInteractor.swift in Sources */,
+				5490236B2A7333C00085FD63 /* NetworkUtils.swift in Sources */,
 				5445117E2A62028300C8D93A /* SceneDelegate.swift in Sources */,
 				544511B52A62062100C8D93A /* HomeViewController.swift in Sources */,
 				54FC896B2A621EE4002B52DD /* HomeRouter.swift in Sources */,
