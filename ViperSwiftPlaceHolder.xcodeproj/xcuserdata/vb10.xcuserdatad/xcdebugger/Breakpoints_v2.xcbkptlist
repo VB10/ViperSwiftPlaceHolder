@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FEF4E792-5F53-4C18-937D-B29226BF802E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D41F8229-62D3-44C3-BFDA-97D8C6AB02BD"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -145,6 +129,182 @@
             endingLineNumber = "35"
             landmarkName = "fetchCatsAsync()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E61D89C-6CF3-4B2F-8ED4-A37AB8F3FD9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperSwiftPlaceHolder/Module/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "updateTitle(value:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E61D89C-6CF3-4B2F-8ED4-A37AB8F3FD9B - faa306a6664186ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ViperSwiftPlaceHolder.HomeViewController.updateTitle(value: Swift.String) -&gt; ()"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "8E61D89C-6CF3-4B2F-8ED4-A37AB8F3FD9B - faa306a6664186ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ViperSwiftPlaceHolder.HomeViewController.updateTitle(value: Swift.String) -&gt; ()"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94EC660D-BD1D-4BB7-B5F6-21A828A3DD74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperSwiftPlaceHolder/Module/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "reloadTableView(cats:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E144B58-EFB8-47B3-ACBC-DB9E41DBD9F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperSwiftPlaceHolder/Module/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "reloadTableView(cats:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0F3A099-FC3C-4B71-B3BB-4CE70417D4FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchCatsAsync()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0F3A099-FC3C-4B71-B3BB-4CE70417D4FA - ec6e5d60e3e81fea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ViperSwiftPlaceHolder.HomePresenter.fetchCatsAsync() async -&gt; ()"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "B0F3A099-FC3C-4B71-B3BB-4CE70417D4FA - ec6e5d60e3e81f85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ViperSwiftPlaceHolder.HomePresenter.fetchCatsAsync() async -&gt; ()"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DF0E23C-2BF7-4937-9CF9-9401D971DB31"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "HomePresenter"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6DF0E23C-2BF7-4937-9CF9-9401D971DB31 - b775ce5a6dedfe71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViperSwiftPlaceHolder.HomePresenter.onTapCell(model: ViperSwiftPlaceHolder.CatEntity) -&gt; ()"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "6DF0E23C-2BF7-4937-9CF9-9401D971DB31 - ec6e5d60e3e81f28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ViperSwiftPlaceHolder.HomePresenter.fetchCatsAsync() async -&gt; ()"
+                  moduleName = "ViperSwiftPlaceHolder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/ViperSwiftPlaceHolder/ViperSwiftPlaceHolder/Module/Home/Presenter/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "580">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

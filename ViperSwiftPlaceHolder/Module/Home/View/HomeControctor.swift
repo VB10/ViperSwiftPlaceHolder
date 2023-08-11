@@ -18,6 +18,7 @@ protocol HomeViewInputs {
     func setupTableViewCell()
     func indicatorView(animate: Bool)
     func sortByTitle()
+    func updateTitle(value: String)
 }
 
 protocol HomeViewPresenterInput {

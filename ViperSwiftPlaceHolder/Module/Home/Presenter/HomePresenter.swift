@@ -7,30 +7,34 @@
 
 import Foundation
 
-
-
 final class HomePresenter: HomeViewPresenterInput {
-    let interactor: HomeInteractor
-    let view: HomeViewInputs
+    private let interactor: HomeInteractor
+    private let viewInputs: HomeViewInputs
+    private let networkErrorHandler: NetworkErrorHandler
+    private let viewEntitity: HomeViewEntity
+    private let router: HomeRouterOutput
 
-    let networkErrorHandler: NetworkErrorHandler
-
-    init(interactor: HomeInteractor, view: HomeViewInputs, networkInput: UINetworkInput) {
+    init(interactor: HomeInteractor, viewInputs: HomeViewInputs,
+         viewable: Viewable,
+         networkInput: UINetworkInput, viewEntitity: HomeViewEntity)
+    {
+        self.viewEntitity = viewEntitity
         self.interactor = interactor
-        self.view = view
+        self.viewInputs = viewInputs
         self.networkErrorHandler = NetworkErrorHandler(viewInput: networkInput)
+        self.router = HomeRouterOutput(viewController: viewable)
     }
 
     private func fetchCats() {
         interactor.fetchCats(url: "\(ProductConstants.BASE_URL)/\(ServicePath.http.rawValue)") { response in
             switch response {
             case .success(let items):
-                self.view.reloadTableView(cats: items)
+                self.viewInputs.reloadTableView(cats: items)
             case .failure:
                 print("")
             }
 
-            self.view.indicatorView(animate: false)
+            self.viewInputs.indicatorView(animate: false)
         }
     }
 
@@ -39,18 +43,20 @@ final class HomePresenter: HomeViewPresenterInput {
 
         switch response {
         case .success(let items):
-            view.reloadTableView(cats: items ?? [])
+            viewInputs.reloadTableView(cats: items ?? [])
         case .failure(let error):
             networkErrorHandler.handleError(error: error)
         }
     }
 
     func onTapCell(model: CatEntity) {
-        print(model)
+        router.navigateToDetail(cat: model)
     }
 
     func viewDidLoad() {
-        view.indicatorView(animate: true)
+        viewInputs.indicatorView(animate: true)
+        viewInputs.updateTitle(value: viewEntitity.title)
+        viewInputs.setupTableViewCell()
         Task {
             @MainActor in
             await fetchCatsAsync()

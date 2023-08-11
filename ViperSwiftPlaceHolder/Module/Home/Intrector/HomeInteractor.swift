@@ -31,7 +31,7 @@ final class HomeInteractor {
     }
 
     func fetchCatsAsync() async -> Result<[CatEntity]?, Error> {
-        let response = await networkManager.fetch(url: .dummy, method: .get, type: [CatEntity].self)
+        let response = await networkManager.fetch(url: .http, method: .get, type: [CatEntity].self)
         return response
     }
 }

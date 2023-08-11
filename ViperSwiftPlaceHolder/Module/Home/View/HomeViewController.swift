@@ -15,8 +15,7 @@ final class HomeViewController: UIViewController {
 
     private var itemCats: [CatEntity] = []
 
-    lazy var presenter: HomePresenter = .init(interactor: HomeInteractor(
-        networkManager: AlamofireNetworkManager.shared), view: self, networkInput: self)
+    var presenter: HomePresenter?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +24,7 @@ final class HomeViewController: UIViewController {
         view.addSubview(homeTableViewController)
         view.addSubview(indicator)
         makeUICordinate()
-        presenter.viewDidLoad()
+        presenter?.viewDidLoad()
     }
 }
 
@@ -41,11 +40,18 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        presenter.onTapCell(model: itemCats[indexPath.row])
+        presenter?.onTapCell(model: itemCats[indexPath.row])
     }
 }
 
 extension HomeViewController: HomeViewInputs {
+    func updateTitle(value: String) {
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            self.labelTitle.text = value
+        }
+    }
+
     func reloadTableView(cats: [CatEntity]) {
         itemCats = cats
         DispatchQueue.main.async { [weak self] in
@@ -110,3 +116,5 @@ extension HomeViewController: UINetworkInput {
         }
     }
 }
+
+extension HomeViewController: Viewable {}

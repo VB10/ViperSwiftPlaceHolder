@@ -21,6 +21,12 @@
 		549023692A73327E0085FD63 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549023682A73327E0085FD63 /* NetworkConfig.swift */; };
 		5490236B2A7333C00085FD63 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490236A2A7333C00085FD63 /* NetworkUtils.swift */; };
 		5490236E2A733BAC0085FD63 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490236D2A733BAC0085FD63 /* ErrorHandler.swift */; };
+		54E505B32A859E5D003E46C7 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E505B22A859E5D003E46C7 /* HomeRouter.swift */; };
+		54E505B52A85A127003E46C7 /* HomeViewEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E505B42A85A127003E46C7 /* HomeViewEntity.swift */; };
+		54E505B92A85A41E003E46C7 /* HomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E505B82A85A41E003E46C7 /* HomeDetailViewController.swift */; };
+		54E505BB2A85A44C003E46C7 /* HomeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E505BA2A85A44C003E46C7 /* HomeDetailRouter.swift */; };
+		54E505BD2A85A676003E46C7 /* HomeDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E505BC2A85A676003E46C7 /* HomeDetailEntity.swift */; };
+		54E505BF2A85A817003E46C7 /* Viewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E505BE2A85A817003E46C7 /* Viewable.swift */; };
 		54FC895B2A620A58002B52DD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54FC895A2A620A58002B52DD /* SnapKit */; };
 		54FC895D2A620F2D002B52DD /* HomeControctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC895C2A620F2D002B52DD /* HomeControctor.swift */; };
 		54FC895F2A6210EB002B52DD /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC895E2A6210EB002B52DD /* HomeInteractor.swift */; };
@@ -28,7 +34,6 @@
 		54FC89632A621470002B52DD /* CatEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC89622A621470002B52DD /* CatEntity.swift */; };
 		54FC89662A621595002B52DD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 54FC89652A621595002B52DD /* Alamofire */; };
 		54FC89692A6218E9002B52DD /* ProductConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC89682A6218E9002B52DD /* ProductConstants.swift */; };
-		54FC896B2A621EE4002B52DD /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC896A2A621EE3002B52DD /* HomeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,12 +72,17 @@
 		549023682A73327E0085FD63 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
 		5490236A2A7333C00085FD63 /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
 		5490236D2A733BAC0085FD63 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		54E505B22A859E5D003E46C7 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		54E505B42A85A127003E46C7 /* HomeViewEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewEntity.swift; sourceTree = "<group>"; };
+		54E505B82A85A41E003E46C7 /* HomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewController.swift; sourceTree = "<group>"; };
+		54E505BA2A85A44C003E46C7 /* HomeDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailRouter.swift; sourceTree = "<group>"; };
+		54E505BC2A85A676003E46C7 /* HomeDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailEntity.swift; sourceTree = "<group>"; };
+		54E505BE2A85A817003E46C7 /* Viewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewable.swift; sourceTree = "<group>"; };
 		54FC895C2A620F2D002B52DD /* HomeControctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControctor.swift; sourceTree = "<group>"; };
 		54FC895E2A6210EB002B52DD /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		54FC89602A6211B3002B52DD /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		54FC89622A621470002B52DD /* CatEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatEntity.swift; sourceTree = "<group>"; };
 		54FC89682A6218E9002B52DD /* ProductConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductConstants.swift; sourceTree = "<group>"; };
-		54FC896A2A621EE3002B52DD /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,12 +177,11 @@
 		544511AC2A6205A500C8D93A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				54E505B12A859E56003E46C7 /* Router */,
 				544511B32A6205E700C8D93A /* Presenter */,
 				544511B22A6205D900C8D93A /* Intrector */,
 				544511B12A6205D500C8D93A /* View */,
-				544511B02A6205D000C8D93A /* Router */,
 				544511AF2A6205C400C8D93A /* Entity */,
-				54FC896A2A621EE3002B52DD /* HomeRouter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -180,6 +189,9 @@
 		544511AD2A6205AA00C8D93A /* HomeDetail */ = {
 			isa = PBXGroup;
 			children = (
+				54E505B82A85A41E003E46C7 /* HomeDetailViewController.swift */,
+				54E505BA2A85A44C003E46C7 /* HomeDetailRouter.swift */,
+				54E505BC2A85A676003E46C7 /* HomeDetailEntity.swift */,
 			);
 			path = HomeDetail;
 			sourceTree = "<group>";
@@ -188,15 +200,9 @@
 			isa = PBXGroup;
 			children = (
 				54FC89622A621470002B52DD /* CatEntity.swift */,
+				54E505B42A85A127003E46C7 /* HomeViewEntity.swift */,
 			);
 			path = Entity;
-			sourceTree = "<group>";
-		};
-		544511B02A6205D000C8D93A /* Router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Router;
 			sourceTree = "<group>";
 		};
 		544511B12A6205D500C8D93A /* View */ = {
@@ -234,12 +240,21 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		54E505B12A859E56003E46C7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				54E505B22A859E5D003E46C7 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		54FC89672A6218DF002B52DD /* Product */ = {
 			isa = PBXGroup;
 			children = (
 				549023672A73326C0085FD63 /* Network */,
 				54FC89682A6218E9002B52DD /* ProductConstants.swift */,
 				549023652A7331520085FD63 /* NetworkManager.swift */,
+				54E505BE2A85A817003E46C7 /* Viewable.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -383,20 +398,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E505B52A85A127003E46C7 /* HomeViewEntity.swift in Sources */,
 				54FC89632A621470002B52DD /* CatEntity.swift in Sources */,
 				5490236E2A733BAC0085FD63 /* ErrorHandler.swift in Sources */,
 				54FC89692A6218E9002B52DD /* ProductConstants.swift in Sources */,
+				54E505B92A85A41E003E46C7 /* HomeDetailViewController.swift in Sources */,
 				549023692A73327E0085FD63 /* NetworkConfig.swift in Sources */,
+				54E505B32A859E5D003E46C7 /* HomeRouter.swift in Sources */,
 				54FC89612A6211B3002B52DD /* HomePresenter.swift in Sources */,
+				54E505BB2A85A44C003E46C7 /* HomeDetailRouter.swift in Sources */,
 				544511802A62028300C8D93A /* ViewController.swift in Sources */,
+				54E505BD2A85A676003E46C7 /* HomeDetailEntity.swift in Sources */,
 				549023662A7331520085FD63 /* NetworkManager.swift in Sources */,
 				5445117C2A62028300C8D93A /* AppDelegate.swift in Sources */,
 				54FC895D2A620F2D002B52DD /* HomeControctor.swift in Sources */,
 				54FC895F2A6210EB002B52DD /* HomeInteractor.swift in Sources */,
 				5490236B2A7333C00085FD63 /* NetworkUtils.swift in Sources */,
+				54E505BF2A85A817003E46C7 /* Viewable.swift in Sources */,
 				5445117E2A62028300C8D93A /* SceneDelegate.swift in Sources */,
 				544511B52A62062100C8D93A /* HomeViewController.swift in Sources */,
-				54FC896B2A621EE4002B52DD /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
